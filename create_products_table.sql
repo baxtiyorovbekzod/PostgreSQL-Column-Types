@@ -1,5 +1,4 @@
--- DROP TABLE products;
-
+DROP TABLE products;
 CREATE TABLE products (
     id SERIAL PRIMARY KEY,
     name VARCHAR(256) NOT NULL,
@@ -11,4 +10,3 @@ CREATE TABLE products (
     is_active BOOLEAN NOT NULL DEFAULT TRUE,
     created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
-
